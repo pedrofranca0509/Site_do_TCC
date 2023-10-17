@@ -1,0 +1,47 @@
+.desktop {
+    display: none;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #999;
+}
+
+.mobile{
+    position: relative;
+}
+
+.desktop_options{
+    display: flex;
+    gap: 2rem;
+}
+
+.options {
+    border: 1px solid #ccc;
+    width: 10rem;
+    padding-block: 1rem;
+    translate: -100%;
+    position: absolute;
+    background-color: #fff;
+    top: 4.525rem;
+
+    transition: translate .3s;
+}
+
+.options nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.options.open {
+    translate: 0;
+}
+
+@media (min-width: 800px) {
+    .mobile {
+         display: none;
+    }
+    .desktop {
+         display: flex;
+    }
+}
