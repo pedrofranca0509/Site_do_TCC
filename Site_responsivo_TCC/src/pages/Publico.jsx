@@ -30,8 +30,7 @@ function Publico() {
                                 )
                             }
                         </button>
-                        <img className="Imglogo" src="../public/logo.png" alt="Logo do projeto aqua"
-                            title="Logo do projeto" />
+                        <img className="Img_logo" src="../public/logo.png" alt="Logo do projeto aqua" title="Logo do projeto" />
                     </div>
 
                     <div className={`${styles.options} ${abrirMenu === true && styles.open}`}>
@@ -39,7 +38,7 @@ function Publico() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
@@ -56,7 +55,7 @@ function Publico() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
@@ -64,7 +63,7 @@ function Publico() {
             </header>
             <main className={styles.main}>
 
-                <div className={styles.textP}>
+                <div className={styles.textP1}>
                     <h1 className={styles.textP}>Integrantes</h1>
                 </div>
                 <div className={styles.fundo}>
@@ -73,20 +72,20 @@ function Publico() {
                             Nosso grupo é composto
                         </p>
                         <div className={styles.component2}>
-                            <a href="https://www.instagram.com/pdrx_tx/">
+                            <a className={styles.component2} href="https://www.instagram.com/pdrx_tx/">
                                 <img className={styles.component1} src="../public/pedro1.jpeg" alt="Menino bunito" title="Pedro Franca 32A" />
                             </a>
-                            <a href="https://www.instagram.com//">
+                            <a className={styles.component2} href="https://www.instagram.com//">
                                 <img className={styles.component1} src="../public/bianca.jpeg" alt="Menina bunito" title="Bianca Freire32A" />
                             </a>
-                            <a href="">
-                                <img className={styles.component1} src="../public/arduino.png" alt="Menino bunito" title="Pedro Henrique 32A" />
+                            <a className={styles.component2} href="">
+                                <img className={styles.component1} src="../public/pedro2.jfif" alt="Menino bunito" title="Pedro Henrique 32A" />
                             </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </main >
+            </main >
 
         </>
     )

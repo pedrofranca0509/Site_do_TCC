@@ -71,16 +71,16 @@
     border: 1px ;
 }
 
-.textP{
+.textP {
     padding: 0.5rem;
     align-items: center;
     text-align: center;
     border-radius: 1.25rem;
     background: #B4B4B4;
     color: black;
-    width: 75%;
+    width: 100%;
     height: 100%;
-    margin: auto;
+    margin: 0.5rem;
 }
 
 .textOp{
@@ -100,6 +100,10 @@
 
 .main{
     padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fundo{
@@ -114,6 +118,16 @@
     text-align: justify;
     width: 100%;
     height: 100%;
+    border-radius: 1.5rem;
     background: #B4B4B4;
     color: black;
+}
+
+.component1{
+    border-radius: 1.5rem;
+        background: #B4B4B4;
+}
+
+.textP1{
+    padding: 1rem;
 }

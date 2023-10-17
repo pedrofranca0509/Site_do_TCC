@@ -17,7 +17,7 @@ function Home() {
     }
     return (
         <>
-        
+
             <header>
                 <div className={styles.mobile}>
                     <div className={styles.menu_logo}>
@@ -30,9 +30,7 @@ function Home() {
                                 )
                             }
                         </button>
-                        <div className={styles.logoM}>
-                    <img src="../public/logo.png" alt="Logo do projeto aqua" title="Logo do projeto" />
-                </div>
+
                     </div>
 
                     <div className={`${styles.options} ${abrirMenu === true && styles.open}`}>
@@ -40,22 +38,21 @@ function Home() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
                 </div>
 
-    
-
                 <div className={styles.desktop}>
+
 
                     <div>
                         <nav className={styles.desktop_options}>
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>

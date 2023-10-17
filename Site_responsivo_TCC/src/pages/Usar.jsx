@@ -38,7 +38,7 @@ function Usar() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
@@ -55,35 +55,35 @@ function Usar() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
                 </div>
             </header>
             <body>
-            <main className={styles.main}>
-                <div className={styles.textP}>
-                    <h1 className={styles.textP} >Como Usar</h1>
-                </div>
-
-                <div className={styles.fundo}>
-
-                    <div className={styles.component}>
-                        <p className={styles.component}>
-                            O uso é bem didático. Para fazer funcionar depois de já montado basta colocar o sensor de umidade na terra do seu vaso e como foi definido no código, quando o sensor identificar que a terra não está úmida o suficiente vai liberar água da válvula solenóide para que umidifique o solo.
-                        </p>
+                <main className={styles.main}>
+                    <div className={styles.textP}>
+                        <h1 className={styles.textP} >Como Usar</h1>
                     </div>
-                </div>
 
-                <div className={styles.video}>
+                    <div className={styles.fundo}>
 
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/BDwgDO3MgDs" title="Faça um Controle de Irrigação Inteligente com Arduino" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className={styles.component}>
+                            <p className={styles.component}>
+                                O uso é bem didático. Para fazer funcionar depois de já montado basta colocar o sensor de umidade na terra do seu vaso e como foi definido no código, quando o sensor identificar que a terra não está úmida o suficiente vai liberar água da válvula solenóide para que umidifique o solo.
+                            </p>
+                        </div>
+                    </div>
 
-                </div>
+                    <div className={styles.video}>
+
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/BDwgDO3MgDs" title="Faça um Controle de Irrigação Inteligente com Arduino" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    </div>
 
 
-            </main>
+                </main>
             </body>
 
         </>

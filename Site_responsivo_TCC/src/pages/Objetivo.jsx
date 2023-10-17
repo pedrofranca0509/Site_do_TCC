@@ -30,8 +30,7 @@ function Objetivo() {
                                 )
                             }
                         </button>
-                        <img className="Imglogo" src="../public/logo.png" alt="Logo do projeto aqua"
-                            title="Logo do projeto" />
+                        <img className="Img_logo" src="../public/logo.png" alt="Logo do projeto aqua" title="Logo do projeto" />
                     </div>
 
                     <div className={`${styles.options} ${abrirMenu === true && styles.open}`}>
@@ -39,7 +38,7 @@ function Objetivo() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
@@ -56,26 +55,28 @@ function Objetivo() {
                             <Link className={styles.textOp} to={"/"}>Home</Link>
                             <Link className={styles.textOp} to={"/material"}>Materiais</Link>
                             <Link className={styles.textOp} to={"/objetivo"}>Objetivo</Link>
-                            <Link className={styles.textOp} to={"/publico"}>Público Alvo</Link>
+                            <Link className={styles.textOp} to={"/publico"}>Integrantes</Link>
                             <Link className={styles.textOp} to={"/usar"}>Como usar</Link>
                         </nav>
                     </div>
                 </div>
             </header>
             <main className={styles.main}>
-                <div className={styles.textP}>
+                <div className={styles.textP1}>
                     <h1 className={styles.textP}>Nosso objetivo e Publico alvo</h1>
                 </div>
                 <div className={styles.fundo}>
 
-                    <div className={styles.component}>
+                    <div className={styles.component1}>
                         <p className={styles.component}>
                             O objetivo do nosso projeto é trazer mais praticidade para as pessoas, principalmente para as que trabalham muito e acabam não tendo muito tempo para tarefas de casa. O nosso irrigador automático ajudará bastante essas pessoas, ja que o único trabalho será reasbastecer o reservatório de.
                         </p>
-                        
-                        <p className={styles.component}>
-                            Nosso público é destinado a pessoas já adultas, por conta de ser algo muito complelaborado, uma criança não entenderia com funciona.
-                        </p>
+
+                        <div className={styles.component1}>
+                            <p className={styles.component}>
+                                Nosso público é destinado a pessoas já adultas, por conta de ser algo muito complelaborado, uma criança não entenderia com funciona.
+                            </p>
+                        </div>
 
                     </div>
 
